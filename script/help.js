@@ -37,7 +37,7 @@ module.exports.run = async function ({ api, event, enableCommands, args, Utils, 
       }
 
       helpMessage += `━━━━━━━━━━━━━━━\n`;
-      helpMessage += `━━𝙲𝙾𝙼𝙼𝙰𝙽𝙳 𝙿𝙰𝙶𝙴 : <${page}/${pages}>━━\n`;
+      helpMessage += `𝙲𝙾𝙼𝙼𝙰𝙽𝙳 𝙿𝙰𝙶𝙴 : <${page}/${pages}\n`;
       helpMessage += `:>Raniella's 𝖠𝖨 𝖢𝖧𝖠𝖳𝖡𝖮𝖳<:\n`;
       helpMessage += `Total commands: ${totalCommands}\n`;
       helpMessage += `━━━━━━━━━━━━━━━\n`;
